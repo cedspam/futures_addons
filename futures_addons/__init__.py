@@ -19,7 +19,7 @@ import queue
 import threading
 import time
 import logging
-
+name = "futures_addons"
 def buffer_generator(iterator, size=1024 ,delai=0.01  ):
     q=queue.Queue(maxsize=size)
     def ent(iterator,q):
