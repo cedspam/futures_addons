@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example_pkg",
+    name="futures_addons",
     version="0.0.1",
     author="cedric lacrambe <",
     author_email="cedric.lacrambe@gmail.com",
