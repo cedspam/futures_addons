@@ -217,7 +217,12 @@ def test():
 
     return r,w,liste
 
-
+def test_validation():
+    r,w,liste=test()
+    assert [l.ident for l in liste[:-1]]==[0, 1]
+    
+    
+    
 if __name__ == '__main__':
     logging.basicConfig(format='%(asctime)s %(levelname)s : %(message)s',\
                     level="DEBUG",datefmt='%d-%m-%Y %Hh%Mm%S')
