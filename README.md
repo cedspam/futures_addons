@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/cedspam/futures_addons.svg?branch=master)](https://travis-ci.org/cedspam/futures_addons)
+[![Python application](https://github.com/cedspam/futures_addons/actions/workflows/python-app.yml/badge.svg)](https://github.com/cedspam/futures_addons/actions/workflows/python-app.yml)
 
+[![Pylint](https://github.com/cedspam/futures_addons/actions/workflows/pylint.yml/badge.svg)](https://github.com/cedspam/futures_addons/actions/workflows/pylint.yml)
 
 # futures_addons
