@@ -25,7 +25,7 @@ def buffer_generator(iterator, size=1024 ,delai=0.01  ):
     def ent(iterator,q):
         for i in iterator:
             q.put(i)
-    partial
+    
     t=threading.Thread(target=partial(ent,iterator,q))
     t.start()
     while t.is_alive() or not  q.empty() :
